@@ -53,8 +53,6 @@ public class CasseBrique extends Canvas {
             indexFrame++;
             Graphics2D dessin = (Graphics2D) getBufferStrategy().getDrawGraphics();
 
-
-
             ArrayList<Sprite> listeDeSprite = new ArrayList<>();
             listeDeSprite.add(new Balle(1,2,1,2,1,Color.yellow));
             listeDeSprite.add(new Point(1,2));
